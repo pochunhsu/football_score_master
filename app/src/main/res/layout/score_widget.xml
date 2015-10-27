@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".MainActivity$PlaceholderFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Football Score"
+            android:id="@+id/test_button"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id = "@+id/scores_widget_list"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="3sp"
+            android:layout_below="@+id/test_button"/>
+    </RelativeLayout>
+</FrameLayout>
