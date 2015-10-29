@@ -37,7 +37,7 @@ public class ScoreWidgetService extends RemoteViewsService {
 
         @Override
         public void onCreate() {
-            Date fragmentdate = new Date(System.currentTimeMillis()-2*86400000);
+            Date fragmentdate = new Date(System.currentTimeMillis());
             SimpleDateFormat mformat = new SimpleDateFormat("yyyy-MM-dd");
             String[] date = new String[1];
             date[0] = mformat.format(fragmentdate);
